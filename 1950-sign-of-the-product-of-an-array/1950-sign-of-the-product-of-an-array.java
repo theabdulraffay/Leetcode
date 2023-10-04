@@ -1,19 +1,18 @@
 class Solution {
     public int arraySign(int[] nums) {
-        short product = 0;
-        for(int i =0; i< nums.length; i++){
-            if(nums[i]==0){
+        short pro = 1;
+        for(int i =0; i < nums.length; i++){
+            pro *= nums[i];
+            if(pro == 0){
                 return 0;
-            }else if(nums[i]<0){
-                product++;
+            }else if(pro > 0){
+                pro = 1;
+            }else{
+                pro = -1;
             }
+        }
 
-        }
-        if(product%2==0){
-            return 1;
-        }else{
-            return -1;
-        }
+        return pro;
         
     }
 }
