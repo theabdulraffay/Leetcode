@@ -29,3 +29,6 @@ Average salary excluding minimum and maximum salary is (2000) / 1 = 2000
 	<li><code>1000 &lt;= salary[i] &lt;= 10<sup>6</sup></code></li>
 	<li>All the integers of <code>salary</code> are <strong>unique</strong>.</li>
 </ul>
+
+Nothing but all i can do is to edit this post
+
