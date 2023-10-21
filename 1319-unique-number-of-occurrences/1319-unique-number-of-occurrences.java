@@ -7,7 +7,7 @@ class Solution {
             if(list.contains(i)){continue;}
             else{list.add(i);}
         }
-        //System.out.println(list);
+
 
 
         for(int i = 0; i< list.size();i++){
@@ -17,7 +17,6 @@ class Solution {
             }
             nlist.add(counter);
         }
-        //System.out.println(nlist);
         for(int i = 0; i<nlist.size();i++){
             for(int j = 0; j<nlist.size();j++){
                 if(i == j)continue;
@@ -27,7 +26,6 @@ class Solution {
                 }
             }
         }
-        //System.out.println(true);
         return true;   
     }
 }
