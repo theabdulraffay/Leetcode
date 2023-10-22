@@ -10,17 +10,8 @@ class Solution {
 				temp /= 2;
 				if(no == 1){counter++;} 
 			}
-
-
-
 			fin[i] = counter;
-
-
-
-
-			
 		}
         return fin;
-        
     }
 }
