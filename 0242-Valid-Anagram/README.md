@@ -1,31 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+242. Valid Anagram
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valid Anagram</title>
-</head>
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
-<body>
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
-    <h1>242. Valid Anagram</h1>
+ 
 
-    <p>Given two strings s and t, return true if t is an anagram of s, and false otherwise.</p>
+Example 1:
 
-    <p>An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using
-        all the original letters exactly once.</p>
+Input: s = "anagram", t = "nagaram"
+Output: true
+Example 2:
 
-    <h2>Example 1:</h2>
-
-    <p><strong>Input:</strong> s = "anagram", t = "nagaram"</p>
-    <p><strong>Output:</strong> true</p>
-
-    <h2>Example 2:</h2>
-
-    <p><strong>Input:</strong> s = "rat", t = "car"</p>
-    <p><strong>Output:</strong> false</p>
-
-</body>
-
-</html>
+Input: s = "rat", t = "car"
+Output: false
