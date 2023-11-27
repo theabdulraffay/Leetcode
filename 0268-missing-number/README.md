@@ -3,7 +3,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre>
+<pre>  
 <strong>Input:</strong> nums = [3,0,1]
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
