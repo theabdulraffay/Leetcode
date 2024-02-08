@@ -1,30 +1,25 @@
 class Solution {
-    public int findMin(int[] nums) {
-        if(nums.length == 1){
-            return nums[0];
-        } 
-        int left = 0;
-        int right = nums.length -1;
-        int res = nums[0];
-        while(left <= right){
-            if(nums[left] < nums[right]){
-                return Math.min(res,nums[left]);
+    int peak(int[] array){
+        int start = 0;
+        int end = array.length - 1;
+        while(start <= end){
+            int mid = start + (end - start) / 2;
+            if(mid < end && array[mid] > array[mid + 1]){
+                return mid;
+            }else if(mid > start && array[mid] < array[mid - 1]){
+                return mid - 1;
+            }else if(array[start] > array[mid]){
+                end = mid - 1;
+            }else {
+                start = mid + 1;
             }
-            int mid = (left + right) /2;
-            res = Math.min(res,nums[mid]);
-            //System.out.println(res);
-            
-            if(nums[left] <= nums[mid]){
-                left = mid + 1;
-                
-            }else{
-                right = mid -1;
-            }
-            
-            
         }
-        return res;
-
+        return -1;
+    }
+    
+    public int findMin(int[] nums) {
+        int peak = peak(nums);
+        return nums[peak + 1];
         
     }
 }
