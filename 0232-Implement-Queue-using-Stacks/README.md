@@ -1,4 +1,4 @@
-# 232. Implement Queue using Stacks
+# 232. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
 
 ## Problem Statement
 
@@ -20,8 +20,8 @@ Implement a first in first out (FIFO) queue using only two stacks. The implement
 
 
 ### Input
-- ["MyQueue", "push", "push", "peek", "pop", "empty"]
-- [[], [1], [2], [], [], []]
+["MyQueue", "push", "push", "peek", "pop", "empty"]
+[[], [1], [2], [], [], []]
 
 ### Output
 [null, null, null, 1, 1, false]
