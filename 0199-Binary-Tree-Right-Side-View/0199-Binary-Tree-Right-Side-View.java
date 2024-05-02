@@ -26,8 +26,8 @@ class Solution {
                 temp = que.poll();
                 if(temp.left != null) que.add(temp.left);
                 if(temp.right != null) que.add(temp.right);
+                if(i == size - 1) list.add(temp.val);
             }
-            list.add(temp.val);
         }
         return list;
     }
