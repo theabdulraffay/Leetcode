@@ -1,0 +1,21 @@
+<h2><a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree">297. Serialize and Deserialize Binary Tree</a></h2>
+<h3>Hard</h3>
+<hr>
+<p>Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.</p>
+<p>Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.</p>
+<p><strong>Clarification:</strong> The input/output format is the same as how LeetCode serializes a binary tree. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.</p>
+<p><strong>Example 1:</strong></p>
+<pre>
+<strong>Input:</strong> root = [1,2,3,null,null,4,5]
+<strong>Output:</strong> [1,2,3,null,null,4,5]
+</pre>
+<p><strong>Example 2:</strong></p>
+<pre>
+<strong>Input:</strong> root = []
+<strong>Output:</strong> []
+</pre>
+<p><strong>Constraints:</strong></p>
+<ul>
+<li>The number of nodes in the tree is in the range [0, 10^4].</li>
+<li>-1000 ≤ Node.val ≤ 1000</li>
+</ul>
