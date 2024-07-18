@@ -1,0 +1,26 @@
+<h2><a href="https://leetcode.com/problems/delete-nodes-and-return-forest">1110. Delete Nodes And Return Forest</a></h2>
+<h3>Medium</h3>
+<hr>
+<p>Given the root of a binary tree, each node in the tree has a distinct value.</p>
+<p>After deleting all nodes with a value in <code>to_delete</code>, we are left with a forest (a disjoint union of trees).</p>
+<p>Return the roots of the trees in the remaining forest. You may return the result in any order.</p>
+
+<p><strong>Example 1:</strong></p>
+<pre>
+<strong>Input:</strong> root = [1,2,3,4,5,6,7], to_delete = [3,5]
+<strong>Output:</strong> [[1,2,null,4],[6],[7]]
+</pre>
+
+<p><strong>Example 2:</strong></p>
+<pre>
+<strong>Input:</strong> root = [1,2,4,null,3], to_delete = [3]
+<strong>Output:</strong> [[1,2,4]]
+</pre>
+
+<p><strong>Constraints:</strong></p>
+<ul>
+<li>The number of nodes in the given tree is at most 1000.</li>
+<li>Each node has a distinct value between 1 and 1000.</li>
+<li><code>to_delete.length <= 1000</code></li>
+<li><code>to_delete</code> contains distinct values between 1 and 1000.</li>
+</ul>
